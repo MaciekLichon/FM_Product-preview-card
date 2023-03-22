@@ -21,6 +21,7 @@
     letter-spacing: 5px;
     line-height: 1.22;
     margin-bottom: 0.75rem;
+    font-size: $fs-accent;
   }
 
   .product__name {
@@ -58,7 +59,7 @@
 
     .product__category { margin-bottom: 1.25rem; }
     .product__name { margin-bottom: 1.5rem; }
-    .product__description { margin-bottom: 1.875rem; }
-    .product__pricing { margin-bottom: 1.5rem; }
+    .product__description { margin-bottom: 1.813rem; }
+    .product__pricing { margin-bottom: 1.75rem; }
   }
 }
