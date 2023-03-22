@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+body {
+  background-color: $clr-200;
+  padding: 0 1rem;
+  font-family: $ff-regular;
+  font-size: $fs-regular;
+  font-weight: $fw-regular;
+  color: $clr-300;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accent {
+  font-family: $ff-accent;
+  font-size: $fs-header;
+  line-height: $lh-header;
+  font-weight: $fw-bold;
+}
+
+.button {
+  border: none;
+  background-color: $clr-accent;
+  padding: 0.938rem;
+  border-radius: 8px;
+  color: $clr-100;
+  font-weight: $fw-bold;
+  line-height: 1.21;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+
+  cursor: pointer;
+  transition: 0.1s;
+
+  &:hover { background-color: $clr-accent-dark; }
+
+  &.button-cart::before {
+    content: url('../images/icon-cart.svg');
+  }
+}

@@ -1,0 +1,45 @@
+/* COLORS */
+/* TYPE */
+body {
+  background-color: #f2eae2;
+  padding: 0 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6c7289;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accent {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.button {
+  border: none;
+  background-color: #3d8168;
+  padding: 0.938rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background-color: #1a4032;
+}
+
+.button.button-cart::before {
+  content: url("../images/icon-cart.svg");
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvdmFyaWFibGVzLnNjc3MiLCIuLi9zYXNzL2dlbmVyYWwuc2NzcyIsImdlbmVyYWwuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBLFdBQUE7QUFTQSxTQUFBO0FDUkE7RUFDRSx5QkRDOEI7RUNBOUIsZUFBZTtFQUNmLHFDRE1tQztFQ0xuQyxtQkRRbUI7RUNQbkIsZ0JEWWM7RUNYZCxjREg4QjtFQ0s5QixhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtBQ0FyQjs7QURHQTtFQUNFLDhCREoyQjtFQ0szQixlRERjO0VDRWQsY0REVztFQ0VYLGdCRENXO0FFRGI7O0FER0E7RUFDRSxZQUFZO0VBQ1oseUJEakJnQztFQ2tCaEMsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixZRHhCOEI7RUN5QjlCLGdCRFJXO0VDU1gsaUJBQWlCO0VBRWpCLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0VBQ25CLFlBQVk7RUFFWixlQUFlO0VBQ2YsZ0JBQWdCO0FDRmxCOztBRGJBO0VBaUJZLHlCRC9CeUI7QUUrQnJDOztBRGpCQTtFQW9CSSx1Q0FBdUM7QUNDM0MiLCJmaWxlIjoiZ2VuZXJhbC5jc3MifQ== */
